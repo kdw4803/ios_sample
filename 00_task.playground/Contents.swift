@@ -54,3 +54,17 @@ calc.sum()
 calc.sub()
 calc.mul()
 calc.div()
+
+
+// TASK #3
+for y in 1...5{
+    for x in 1...5{
+        if(x-2>y || x+2<y || -x+4>y || -x+8<y){
+            print("0", terminator:"")
+        } else {
+            print("1", terminator:"")
+        }
+    }
+    print("")
+}
+
